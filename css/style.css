@@ -34,12 +34,6 @@ body{
     background-size: 100%;
 }
 
-.name{
-
-    background-image:url(../img/DSC03160.jpg);
-    padding-bottom: 400px;
-}
-
 .name h1 {
 
     color: var(--light-070);
@@ -49,6 +43,7 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 40px;
     transform: scale(1,2);
+    -webkit-text-stroke: 0.5px var(--dark-026);
 }
 
 .name h2 {
@@ -61,19 +56,6 @@ body{
     letter-spacing: 20px;
     transform: scale(1,1.5);
 
-}
-
-.name p {
-
-    border-width: 1px;
-    border-style: solid;
-    border-color: var(--dark-054);
-    box-shadow: 4px 4px 4px var(--dark-054);
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 25%;
-    float: right;
-    margin-right: 50px;
-    margin-top: 300px;
 }
 
 .Photo h1{
@@ -220,4 +202,13 @@ section img{
   content: '\f0aa';
   font-size: 60px;
   color: #ef3f40;
+}
+
+.bg-slider {
+	width: 100vw;
+	height: 100vh;
+	background-position:center center;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
 }
