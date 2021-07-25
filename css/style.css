@@ -42,7 +42,7 @@ header {
 
 .name{
 
-    background-image:url(img/DSC03160.jpg);
+    background-image:url(../img/DSC03160.jpg);
     padding-bottom: 400px;
 }
 
@@ -86,21 +86,21 @@ header {
 
 .photo01{
 
-    background-image: url(img/img9.jpg);
+    background-image: url(../img/img9.jpg);
     padding-bottom: 700px;
 
 }
 
 .photo02{
 
-    background-image: url(img/img8.jpg);
+    background-image: url(../img/img8.jpg);
     padding-bottom: 700px;
 
 }
 
 .photo03{
 
-    background-image: url(img/img2.jpg);
+    background-image: url(../img/img2.jpg);
     padding-bottom: 700px;
 }
 
