@@ -63,6 +63,19 @@ body{
 
 }
 
+.name p {
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--dark-054);
+    box-shadow: 4px 4px 4px var(--dark-054);
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 25%;
+    float: right;
+    margin-right: 50px;
+    margin-top: 300px;
+}
+
 .Photo h1{
 
     padding: 60px;
@@ -76,6 +89,11 @@ body{
     font-size: 60px;
 
     font-family: 'Libre Baskerville', serif;
+}
+
+.contents .text p {
+
+    padding: 15px;
 }
 
 .photo01{
@@ -119,7 +137,7 @@ body{
     width: 25%;
     float: right;
     margin-right: 50px;
-    margin-top: 380px;
+    margin-top: 550px;
 }
 
 .flex-container{
@@ -181,4 +199,25 @@ section img{
 .profile img {
 
     box-shadow: 4px 4px 4px var(--dark-054);
+}
+
+#page_top{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+#page_top a{
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f0aa';
+  font-size: 60px;
+  color: #ef3f40;
 }
