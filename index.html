@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/lightbox.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Otomanopee+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Open+Sans+Condensed:wght@300&family=Otomanopee+One&display=swap" rel="stylesheet">
+
+<!-- jQuery -->
+<script src="./js/jquery-3.6.0.min.js"></script>
+<!-- custom script -->
     </head>
 
 <body>
@@ -64,7 +69,9 @@
             </div>
             <div class="flex-container">
                 <section class="sec-wide">
-                    <img src="img/img1.jpg">
+                    <a href="img/img1.jpg" data-lightbox="image-1" data-title="My caption">
+                        <img src="img/img1.jpg">
+                    </a>
                 </section>
                 <section id="sec2">
                     <img src="img/img2.jpg">
@@ -91,6 +98,9 @@
         </div>
 
     </main>
+
+    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor/lightbox/lightbox.min.js"></script>
 
 </body>
 
